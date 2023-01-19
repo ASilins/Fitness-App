@@ -23,7 +23,7 @@ Clone this git repository in cmd
 Note: When you have cloned the repository it will create a folder where all of the files are in there
 
 ```shell
-git clone https://github.com/ASilins/SEP3-Project
+git clone https://github.com/ASilins/Fitness-App
 ```
 
 ### Running the programm
