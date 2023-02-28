@@ -2,32 +2,6 @@
 
 ----
 
-## Installing / Getting started
-
-A quick introduction of getting the program setup.
-
-First you have to set up directory where the program will be.
-Open cmd and go to the directories location using this command
-
-```shell
-cd directoryName
-```
-
-To speed up the process you can also use forward slash '/' to go through multiple directories
-
-```shell
-cd directoryName/anotherDirecoryName
-```
-
-Clone this git repository in cmd
-Note: When you have cloned the repository it will create a folder where all of the files are in there
-
-```shell
-git clone https://github.com/ASilins/Fitness-App
-```
-
-### Running the programm
-
 ----
 
 ## Devlog
@@ -37,17 +11,17 @@ Future plans to change the architecture for the system. Plan to change gRPC to c
 
 28.02.23 -
 Project will be with less features than the semester project. The featurs implemented will be:
-"*"As a user, I want to create a profile, so that I can get access to the system.
-"*"As a user, I want to log into my profile, so that I can gain access to the system.
-"*"As a user, I want to create exercises, so that I can have them in workouts.
-"*"As a user, I want to see exercises, so that I can use them during workouts and to use them with other features.
-"*"As a user, I want to create workouts, so that they can be used during training.
-"*"As a user, I want to see workouts, so that I can use them during workouts.
-"*"As a user, I want to manage exercises, so that I can remove them or change details.
-"*"As a user, I want to manage workouts, so that I can remove them or change details.
-"*"As a user, I want to manage my profile, so that I can remove it or change user my user information.
+* As a user, I want to create a profile, so that I can get access to the system.
+* As a user, I want to log into my profile, so that I can gain access to the system.
+* As a user, I want to create exercises, so that I can have them in workouts.
+* As a user, I want to see exercises, so that I can use them during workouts and to use them with other features.
+* As a user, I want to create workouts, so that they can be used during training.
+* As a user, I want to see workouts, so that I can use them during workouts.
+* As a user, I want to manage exercises, so that I can remove them or change details.
+* As a user, I want to manage workouts, so that I can remove them or change details.
+* As a user, I want to manage my profile, so that I can remove it or change user my user information.
 
-For the architecture the system will be implemented with two servers, Data server and logic server. For the client the application will be coded using React native.
+For the architecture the system will be implemented with two servers, Data server and logic server. For the client the application will be coded using React native.\
 The communication between serves will be with REST endpoints. Data server will be coded in C# and logic server will be coded in Java. There will be also an authentications server coded in Node.js that will authenticate the user to be able to communicate with the logic server API. 
 
 Before the coding can be started the repository will be implemented with CI/CD pipelines but the code for now will not be deployed on the cloud. 
@@ -61,5 +35,5 @@ The code that and the documentation will be changed/removed in the following few
 ## Changelog
 
 Alpha-1.0.0: 
-The initial setup is taken from a Semester 3 project which was a two man collaboration. The repository is found here https://github.com/ASilins/SEP3-Project
+The initial setup is taken from a Semester 3 project which was a two man collaboration. The repository is found here https://github.com/ASilins/SEP3-Project \
 The intellectual property for the idea for the project is for both collaborators in the Semester 3 project: Arturs Silins and Ondrej Klimek.
